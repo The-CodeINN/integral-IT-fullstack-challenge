@@ -1,15 +1,12 @@
-/* Apply a global box-sizing value of border-box */
 * {
   box-sizing: border-box;
 }
 
-/* Set a max width for the form container */
 .form {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* Style form elements */
 .form-group {
   margin-bottom: 1rem;
 }
@@ -28,7 +25,6 @@
   font-size: 1rem;
 }
 
-/* Style the submit button */
 .button {
   display: block;
   width: 100%;
@@ -45,7 +41,6 @@
   background-color: #0d8bf2;
 }
 
-/* Style the page title */
 .title {
   text-align: center;
   margin-top: 1rem;
@@ -53,7 +48,6 @@
   font-size: 2rem;
 }
 
-/* Make the form responsive */
 @media screen and (max-width: 600px) {
   .form {
     padding: 0 1rem;
