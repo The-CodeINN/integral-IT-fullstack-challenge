@@ -1,8 +1,18 @@
-## LasleVPN
+# Lasles VPN Landing Page
 
-Lasle vpn project cloning for practicing and learning TailwindCSS
+This is a landing page for Lasles VPN, a private virtual network that offers unique features and high security. 
+
+## Usage
+
+To use this landing page, follow these steps:
+
+1. Clone the repository
+2. Install the dependencies using `yarn install`
+3. Run the development server using `yarn dev`
+4. Open `http://localhost:3000` in your browser to view the page
+
 
 **Live demo**: [Demo Link](https://laslesvpnlandingpage.netlify.app/)
 
 ## Technologies
-This project is built using TailwindCSS and plain HTML 
+The page was built using HTML and Tailwind CSS, and was generated using Vite.
