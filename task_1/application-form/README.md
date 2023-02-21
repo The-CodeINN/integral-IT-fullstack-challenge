@@ -19,12 +19,8 @@ When a user submits the form, their information is stored in a Google Sheet. The
 
 To use the form, simply open the `index.html` file in a web browser. Fill out the form with your information and click the "Submit" button. You should see a success message if the form was submitted successfully.
 
-## Responses
-Responses to the form are stored in a Google Sheet, which can be found at the following link:
-
-[Google Sheet](https://docs.google.com/spreadsheets/d/174NgSOCihI07WjWWzu6GN-oqJmjyJRZwuwfH2Dyv3h8/edit?usp=sharing)
-
-Responses will be added to the sheet in real-time as candidates submit their information.
+## Live Website
+[Software Develompment Form](https://software-development-application.netlify.app/)
 
 ## Built With
 
