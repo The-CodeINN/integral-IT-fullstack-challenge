@@ -22,6 +22,11 @@ To use the form, simply open the `index.html` file in a web browser. Fill out th
 ## Live Website
 [Software Develompment Form](https://software-development-application.netlify.app/)
 
+## SpreadSheet
+[Google SpreadSheet](https://docs.google.com/spreadsheets/d/174NgSOCihI07WjWWzu6GN-oqJmjyJRZwuwfH2Dyv3h8/edit?usp=sharing)
+
+The spreadsheet is updated in realtime as soon at the respondent submits the form.
+
 ## Built With
 
 - HTML
