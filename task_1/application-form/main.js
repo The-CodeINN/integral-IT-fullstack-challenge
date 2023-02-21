@@ -2,7 +2,7 @@ import "./style.css";
 import swal from "sweetalert";
 
 document.querySelector("#app").innerHTML = `
-<div>
+<div id="app">
 <h1 class="title">Application for Software Engineering Role</h1>
 <form
   action="https://sheetdb.io/api/v1/xuwu66iw1sbk8"
@@ -54,11 +54,19 @@ form.addEventListener("submit", (e) => {
     body: new FormData(document.getElementById("sheetdb-form")),
   })
     .then((response) => response.json())
-    .then((html) => {
+    .then((data) => {
       swal(
         "Great!",
         "Form submitted successfully!",
         "success"
+      );
+      document.getElementById("sheetdb-form").reset();
+    })
+    .catch((error) => {
+      swal(
+        "Oops!",
+        "There was an error submitting the form. Please try again.",
+        "error"
       );
     });
 });
