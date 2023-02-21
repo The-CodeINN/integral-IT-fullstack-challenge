@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +18,34 @@
     <link rel="stylesheet" href="./styles/output.css" />
     <title>LasleVPN - The best VPN provider</title>
   </head>
-  <body>
-    <h1>Getting Started</h1>
+  <body class="text-primary_black">
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+      <div class="spaced flex items-center justify-between py-[16px]">
+        <nav>
+          <div>
+            <img src="./assets/Logo.png" alt="LasleVPN logo" class="w-full">
+          </div>
+        </nav>
+        <nav class="block md:hidden order-[-1]">
+          <i class="bi bi-list text-3xl"></i>
+        </nav>
+        <nav class="hidden md:block">
+          <ul class="flex gap-10">
+            <li class="hover:text-primary_red cursor-pointer">About</li>
+            <li class="hover:text-primary_red cursor-pointer">Features</li>
+            <li class="hover:text-primary_red cursor-pointer">Pricing</li>
+            <li class="hover:text-primary_red cursor-pointer">Testimonial</li>
+            <li class="hover:text-primary_red cursor-pointer">Help</li>
+          </ul>
+        </nav>
+        <nav class="hidden xl:flex gap-10 items-center">
+          <a href="" class="font-semibold hover:text-primary_red cursor-pointer">Sign in</a>
+          <button class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red">Sign Up</button>
+        </nav>
+        <nav class="block xl:hidden">
+          <i class="bi bi-person-fill text-3xl"></i>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
