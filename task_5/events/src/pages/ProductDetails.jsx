@@ -47,7 +47,7 @@ const ProductDetails = () => {
           </div>
           <div className="flex flex-1 flex-col items-center text-center lg:items-start lg:text-left">
             <h2 className="mb-4 max-w-[400px] text-3xl font-medium">{title}</h2>
-            <p className="mb-6 text-xl font-medium text-red-500">$ {price}</p>
+            <p className="mb-6 text-xl font-medium text-red-500">₦ {price * 450}</p>
             <p className="mb-8 w-3/4">{truncate(description, 360)}</p>
             <button
               onClick={() => addToCart(product, product.id)}
